@@ -1,0 +1,13 @@
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/RobotModel
+      Enabled: true
+      Name: Robot Model
+      Robot Description: robot_description
+    - Class: rviz_default_plugins/Grid
+      Enabled: true
+      Name: Grid
+  Enabled: true
+  Global Options:
+    Fixed Frame: base_link
